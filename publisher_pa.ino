@@ -34,10 +34,9 @@ BlynkTimer timer;
 
 long duration;
 float distanceCm;
-float distanceInch;
 bool lampu = false;
 
-float jarakCm, jarakInch;
+float jarakCm;
 
 WiFiServer server(80); // Initialize the web server on port 80
 
@@ -100,16 +99,13 @@ void loop() {
   // Calculate the distance
   distanceCm = (duration/2) / 29.1;
   
-  // Convert to inches
-  distanceInch = distanceCm * CM_TO_INCH;
 
   client.setCallback(callback);
   Blynk.virtualWrite(V0, distanceCm);
-  Blynk.virtualWrite(V1, distanceInch);
 
  // Check if any reads failed and exit early (to try again).
-  if (isnan(distanceCm) || isnan(distanceInch)) {
-    Serial.println(F("Failed to read from distanceCm or distanceInch"));
+  if (isnan(distanceCm)) {
+    Serial.println(F("Failed to read from distanceCm"));
     return;
   }
 
@@ -117,8 +113,6 @@ void loop() {
   Serial.println("-----------------");
   Serial.print("Distance (cm): ");
   Serial.println(distanceCm);
-  Serial.print("Distance (inch): ");
-  Serial.println(distanceInch);
   Serial.print("Status LED: ");
 
   if (distanceCm >= 4) {
