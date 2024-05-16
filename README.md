@@ -52,6 +52,8 @@ Rangkaian ini menghasilkan output nilai dari kecerahan dan buzzer. Apabila suhu 
 </div>
 
 <br>
+
+<!--
   
 - OUR SCHEMATIC
 <div align="center">
@@ -67,6 +69,8 @@ Rangkaian ini menghasilkan output nilai dari kecerahan dan buzzer. Apabila suhu 
 </div>
 
 <br>
+
+-->
   
 <div align="center">
 
