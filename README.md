@@ -20,6 +20,7 @@
 
 ## DESKRIPSI
 <!--
+Rangkaian ini akan mendeteksi objek mobil yang ada
 Rangkaian ini menghasilkan output nilai dari kecerahan dan buzzer. Apabila suhu melebihi 36°C maka buzzer akan memberi peringatan dan LED warna merah akan nyala, jika suhu dibawah 30°C LED warna Hijau akan nyala, dan jika suhu berada di 30-36°C LED warna kuning akan nyala
 -->
 
