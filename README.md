@@ -19,11 +19,7 @@
 </div>
 
 ## DESKRIPSI
-<!--
-
-Rangkaian ini akan mendeteksi objek mobil menggunakan sensor jarak, ketika sensor tik mendeteksi objek dalam 
-Rangkaian ini menghasilkan output nilai dari kecerahan dan buzzer. Apabila suhu melebihi 36°C maka buzzer akan memberi peringatan dan LED warna merah akan nyala, jika suhu dibawah 30°C LED warna Hijau akan nyala, dan jika suhu berada di 30-36°C LED warna kuning akan nyala
--->
+Rangkaian ini mendeteksi objek pada sebuah parkir mobil menggunakan sensor jarak. Sensor akan terus mengirim jarak ke NODEMCU, jika tidak terdeteksi objek yang berjarak kurang dari 4 cm dengan sensor, LED akan terus menyala dan jika tombol "cek parkir" pada platform blynk diklik buzzer akan menyala selama 5 detik. Ketika sensor mendeteksi objek dan jika jarak objek dengan sensor sekitar kurang dari 4 cm, maka LED akan mati dan buzzer tidak akan bersuara. Untuk monitoring jarak dapat dilihat pada platform blynk dan mqtt.
 
 ## PEMBAGIAN TUGAS
 
@@ -40,8 +36,8 @@ Rangkaian ini menghasilkan output nilai dari kecerahan dan buzzer. Apabila suhu 
 - Kabel Jumper : untuk menyambungkan komponen elektronik satu sama lain
 - LED : untuk menampilkan cahaya
 - Resistor : untuk menghabat arus listrik
-- Buzzer : untuk peringatan suhu berupa suara
-- Sensor Jarak (HC-SR04) : untuk mendeteksi suhu dan kelembaban
+- Buzzer : untuk peringatan jarak kolom parkir berupa suara
+- Sensor Jarak (HC-SR04) : untuk mendeteksi jarak berupa gelombang ultrasonik
 
 
 ## RANGKAIAN
