@@ -74,7 +74,6 @@ void setup() {
             delay(2000);
         }
     }
-     // Publish and subscribe
     client.subscribe(topic_Command);
     client.subscribe(topic_Data);
 }
