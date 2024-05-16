@@ -25,11 +25,11 @@ Rangkaian ini menghasilkan output nilai dari kecerahan dan buzzer. Apabila suhu 
 
 ## PEMBAGIAN TUGAS
 
-040_Natalie Fuad       = Membuat readme pada github, mengatur logika sensor jarak, led dan buzzer, mengatur konfigurasi master node ke mqtt
+`040_Natalie Fuad`       = Membuat readme pada github, mengatur logika sensor jarak, led dan buzzer, mengatur konfigurasi master node ke mqtt dan menyusun manual book
 <br>
-047_Muhammad Irsyadul A F  = Mengatur konfigurasi bylnk, mengatur konfigurasi edge node dan master node ke bylnk, dan menyusun manual book
+`047_Muhammad Irsyadul A F`  = Mengatur konfigurasi bylnk, mengatur konfigurasi edge node dan master node ke bylnk, dan menyusun manual book
 <br>
-050_Sherina Laraswati  = Mmembuat rangkaian design schematic, membuat rangkaian master node dan edge node, mengatur konfigurasi mqtt, dan menyusun manual book
+`050_Sherina Laraswati`  = Membuat rangkaian design schematic, membuat rangkaian master node dan edge node, mengatur konfigurasi mqtt, dan menyusun manual book
 
 
 ## KOMPONEN YANG DIGUNAKAN
