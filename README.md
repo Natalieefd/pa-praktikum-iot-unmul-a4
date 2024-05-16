@@ -47,7 +47,7 @@ Rangkaian ini menghasilkan output nilai dari kecerahan dan buzzer. Apabila suhu 
 - DESIGN SCHEMATIC
 <div align="center">
   
-<img src="">
+<img src="https://github.com/Natalieefd/pa-praktikum-iot-unmul-a4/blob/main/Lampiran/design_schematic.png">
 
 </div>
 
@@ -56,7 +56,13 @@ Rangkaian ini menghasilkan output nilai dari kecerahan dan buzzer. Apabila suhu 
 - OUR SCHEMATIC
 <div align="center">
 
-<img src="">
+<b>Master Node (Publisher)</b><br>
+
+<img src="https://github.com/Natalieefd/pa-praktikum-iot-unmul-a4/blob/main/Lampiran/rangkaian_master_node.png">
+
+<br><b>Edge Node (Subscriber)</b><br>
+
+<img src="https://github.com/Natalieefd/pa-praktikum-iot-unmul-a4/blob/main/Lampiran/rangkaian_edge_node.png">
 
 </div>
 
